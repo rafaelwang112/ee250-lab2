@@ -1,11 +1,9 @@
 # Lab 2
 
 ## Team Members
-- team member 1
-- team member 2
+- Rafael Wang
+- Robert Fan
 
 ## Lab Question Answers
 
 Answer for Question 1: 
-
-...
