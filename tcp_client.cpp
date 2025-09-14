@@ -15,7 +15,7 @@ int main(int argc, char const *argv[])
 	// check to see if user input is valid
 	char socket_read_buffer[1024];
 	
-	std::string server_ip = "localhost"; //address to connect to (for connecting to Pi, change IP to that of my Pi: 172.20.10.2)
+	std::string server_ip = "localhost"; //address to connect to (for connecting to Pi, change IP to that of the Pi: 172.20.10.2)
 	std::string server_port = "6666";
 
 	int opt = 1;
