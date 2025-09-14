@@ -45,7 +45,7 @@ int main(int argc, char const *argv[])
 	connect(client_fd, (*server_addr).ai_addr, (*server_addr).ai_addrlen); //connecting to the server with parameters of the client socket, the server's socket address, and its length 
 
 	char buffer[256];
-	std::cout << "Type input: " << std::endl; //get the user input
+	std::cout << "Type input: "; //get the user input
 	std::cin.getline(buffer, 256);
 	if (std::cin.fail()){
 		return -1;
