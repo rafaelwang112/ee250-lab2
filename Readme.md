@@ -25,11 +25,11 @@ Answer for QC.3: A struct is a data type (similar to a class) that groups severa
          char             sin_zero[8];
      };
 ```
-Answer for QC.4: 
+Answer for QC.4: The input parameters are domain (specifies the communication domain), type (the type of socket created), and protocol (the protocol to be used with the socket). The return value is a file descriptor, or, in the case of an error, -1. 
 
-Answer for QC.5: 
+Answer for QC.5: For bind(), the input parameters are sockfd (the file descriptor), addr (a pointer to a struct sockaddr containing the address to bind to), and addrlen (size of the address structure). The input parameters for listen() are sockfd (the file descriptor) and backlog (the number of pending connections that can be queued).  
 
-Answer for QC.6: 
+Answer for QC.6: The while(1) loop is used so that the server runs indefinitely and can continiously accept and handle incoming connections. Based on the code structure, if there are multiple simultaneous connections to handle, the program can only handle one connection at a time before accepting the next, so this may cause problems in terms of delays. 
 
 Answer for QC.7: 
 
