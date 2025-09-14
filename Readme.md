@@ -29,9 +29,9 @@ Answer for QC.4: The input parameters are domain (specifies the communication do
 
 Answer for QC.5: For bind(), the input parameters are sockfd (the file descriptor), addr (a pointer to a struct sockaddr containing the address to bind to), and addrlen (size of the address structure). The input parameters for listen() are sockfd (the file descriptor) and backlog (the number of pending connections that can be queued).  
 
-Answer for QC.6: The while(1) loop is used so that the server runs indefinitely and can continiously accept and handle incoming connections. Based on the code structure, if there are multiple simultaneous connections to handle, the program can only handle one connection at a time before accepting the next, so this may cause problems in terms of delays. 
+Answer for QC.6: The while(1) loop is used so that the server runs indefinitely and can continuously accept and handle incoming connections. Based on the code structure, if there are multiple simultaneous connections to handle, the program can only handle one connection at a time before accepting the next, so this may cause problems in terms of delays. 
 
-Answer for QC.7: fork() creates a new child process running in synx with the parent process. It can be applied here to better handle multiple connections because when a new connection is incoming, the fork() commmand will create a child process that handles the connection while the parent process continues to accept new connections. In turn, this allows the processing of multiple connections.
+Answer for QC.7: fork() creates a new child process running in sync with the parent process. It can be applied here to better handle multiple connections because when a new connection is incoming, the fork() commmand will create a child process that handles the connection while the parent process continues to accept new connections. In turn, this allows the processing of multiple connections.
 
 Answer for QC.8: A system call is a way for the program to request a service from the kernel of the OS.
 
