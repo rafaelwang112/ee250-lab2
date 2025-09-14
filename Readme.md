@@ -14,7 +14,7 @@ Answer for QA.3: The speed of the TCP response became slower because TCP acknowl
 
 Answer for QC.1: argc tells you how many arguments there are in argv. argv is an array of C-string pointers of all the command line arguments passed to the program.
 
-Answer for QC.2: A UNIX file descriptor is a unique identifier, such as an integer, associated with a file or socket that is used by the OS to access the file or socket. A file descriptor table is an array-like data structure that stores the file descriptors for each process. 
+Answer for QC.2: A UNIX file descriptor is a unique identifier, such as an integer, associated with a file or socket that is used by the OS to access the file or socket. A file descriptor table is a data structure that stores the file descriptors for each process. 
 
 Answer for QC.3: A struct is a data type (similar to a class) that groups several related variables under one name. The structure of sockaddr_in is: 
 ```
