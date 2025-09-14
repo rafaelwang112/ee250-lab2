@@ -35,4 +35,4 @@ Answer for QC.7: fork() creates a new child process running in sync with the par
 
 Answer for QC.8: A system call is a way for the program to request a service from the kernel of the OS.
 
-Answer for QA.4: We did not use LLMs for this lab.
+Answer for QA.4: LLMs were not used for this lab.
