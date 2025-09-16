@@ -1,8 +1,8 @@
 # Lab 2
 
 ## Team Members
-- Rafael Wang
-- Robert Fan
+- Rafael Wang (@rafaelwang112)
+- Robert Fan (@TsukiRobert)
 
 ## Lab Question Answers
 
