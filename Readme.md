@@ -1,8 +1,8 @@
 # Lab 2
 
 ## Team Members
-- Rafael Wang (@rafaelwang112)
-- Robert Fan (@TsukiRobert)
+- Rafael Wang (USC ID: 6189106477, Github Handle: @rafaelwang112)
+- Robert Fan (USC ID: 7072371273, Github Handle: @TsukiRobert)
 
 ## Lab Question Answers
 
